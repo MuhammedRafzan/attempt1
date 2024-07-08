@@ -1,16 +1,23 @@
 body{
     background-image: url('https://www.wanderwithjo.com/wp-content/uploads/2017/08/books-2602030_1280.jpg');
+    background-repeat: repeat;
+    background-size: cover;
 }
 .box1{
-    width:400px;
-    height:390px;
+    
+    width: fit-content;
     border:4px solid whitesmoke;
-    margin-left: 500px;
-    padding-left: 90px;
-    padding-top: 20px;
+    padding-right: 2%;
+    padding-left: 3%;
+    padding-top: 0%;
     backdrop-filter: blur(20px);
     border-radius: 10px;
-    margin-top: 180px;
+    align-items: center;
+    align-content: center;
+    background-position: center;
+    justify-content: center;
+    position: relative;
+    margin: 10% 25%;
 }
 .text1{
     text-shadow: 1px 1px 1px;
@@ -18,7 +25,7 @@ body{
     border: 2px solid black;
     background-color: cornsilk;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right:2% ;
     border-radius: 10px;
     
     
@@ -67,7 +74,7 @@ body{
 }
 #h{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-left: 90px;
+
     color:azure;
     text-shadow: 0 0 2px black;
     font-size: 30px;
